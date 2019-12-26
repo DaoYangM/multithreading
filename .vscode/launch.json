@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - NormalCase",
+            "request": "launch",
+            "mainClass": "threadcoreknowledge.stopthread.NormalCase",
+            "projectName": "multithreading"
+        }
+    ]
+}

@@ -15,6 +15,7 @@ public class NormalCase {
                 }
                 num++;
             }
+            System.out.println("Interrupt ...");
         };
 
         Thread thread = new Thread(runnable);
