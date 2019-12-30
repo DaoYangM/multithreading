@@ -5,7 +5,7 @@ package threadcoreknowledge.threadstate;
  */
 public class BlockedWaitingTimedWaiting {
 
-    private static Object LOCK = new Object();
+    private static final Object LOCK = new Object();
 
     public static void main(String[] args) throws InterruptedException {
         Runnable runnable = () -> {

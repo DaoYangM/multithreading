@@ -27,5 +27,6 @@ public class NewRunnableTerminated {
         thread.join();
         // TERMINATED
         System.out.println(thread.getState());
+
     }
 }
