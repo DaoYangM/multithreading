@@ -20,5 +20,6 @@ public class MyUncaughtExceptionHandler implements Thread.UncaughtExceptionHandl
 
         System.out.println("MASTER 1");
         System.out.println("JMM 1");
+        System.out.println("JMM 2");
     }
 }
