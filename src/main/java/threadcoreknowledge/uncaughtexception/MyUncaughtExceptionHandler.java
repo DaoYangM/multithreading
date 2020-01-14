@@ -19,5 +19,6 @@ public class MyUncaughtExceptionHandler implements Thread.UncaughtExceptionHandl
         System.out.println("MERGE MERGE MASTER BRANCH");
 
         System.out.println("MASTER 1");
+        System.out.println("JMM 1");
     }
 }
