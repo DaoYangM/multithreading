@@ -14,5 +14,6 @@ public class MyUncaughtExceptionHandler implements Thread.UncaughtExceptionHandl
 
         ParentThreadCannotStopWithChildThreadException.runChildThread();
         System.out.println("MERGE MASTER BRANCH");
+        System.out.println("JMM BRANCH AFTER");
     }
 }
